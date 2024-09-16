@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef Ouahbi - Web Developer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 p-4 text-white fixed w-full">
+        <div class="container mx-auto flex justify-between">
+            <h1 class="text-xl font-bold">Youssef Ouahbi</h1>
+            <div class="space-x-4">
+                <a href="#about" class="hover:text-yellow-400">About</a>
+                <a href="#projects" class="hover:text-yellow-400">Projects</a>
+                <a href="#skills" class="hover:text-yellow-400">Skills</a>
+                <a href="#contact" class="hover:text-yellow-400">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="h-screen bg-cover bg-center" style="background-image: url('your-hero-image.jpg');">
+        <div class="flex items-center justify-center h-full bg-gray-900 bg-opacity-50">
+            <div class="text-center text-white animate__animated animate__fadeIn">
+                <h2 class="text-4xl font-bold">Hi, I'm Youssef Ouahbi</h2>
+                <p class="mt-4 text-xl">Freelance Web Developer & WordPress Specialist</p>
+                <a href="#projects" class="mt-8 inline-block bg-yellow-400 text-black px-6 py-3 rounded-lg">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-200">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold">About Me</h2>
+            <p class="mt-4 max-w-2xl mx-auto">I'm Youssef, a passionate web developer with expertise in front-end and back-end technologies. I’ve worked on several projects ranging from e-commerce platforms to stock management systems, using technologies like React, Django, and Tailwind. Let's build something amazing together!</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                <div class="bg-gray-800 text-white p-6 rounded-lg hover:bg-gray-700 transition transform hover:scale-105">
+                    <h3 class="text-xl font-bold">Stock Management System</h3>
+                    <p class="mt-2">Built with Django, MySQL, and Bootstrap for tracking inventory and sales.</p>
+                    <a href="https://github.com/YoussefOuahbi/stock-management" class="text-yellow-400 mt-4 block">View on GitHub</a>
+                </div>
+                <div class="bg-gray-800 text-white p-6 rounded-lg hover:bg-gray-700 transition transform hover:scale-105">
+                    <h3 class="text-xl font-bold">E-Commerce Platform</h3>
+                    <p class="mt-2">Developed using Django, with cash-on-delivery and responsive design features.</p>
+                    <a href="https://github.com/YoussefOuahbi/ecommerce" class="text-yellow-400 mt-4 block">View on GitHub</a>
+                </div>
+                <div class="bg-gray-800 text-white p-6 rounded-lg hover:bg-gray-700 transition transform hover:scale-105">
+                    <h3 class="text-xl font-bold">Marketing Agency Website</h3>
+                    <p class="mt-2">A dynamic website built with React.js and Django, featuring Tailwind CSS styling.</p>
+                    <a href="https://github.com/YoussefOuahbi/agency-website" class="text-yellow-400 mt-4 block">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-200">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8">
+                <div class="text-center">
+                    <img src="path-to-icon/react-icon.png" alt="React" class="w-16 mx-auto">
+                    <h3 class="text-xl mt-2">React.js</h3>
+                </div>
+                <div class="text-center">
+                    <img src="path-to-icon/python-icon.png" alt="Python" class="w-16 mx-auto">
+                    <h3 class="text-xl mt-2">Python</h3>
+                </div>
+                <div class="text-center">
+                    <img src="path-to-icon/django-icon.png" alt="Django" class="w-16 mx-auto">
+                    <h3 class="text-xl mt-2">Django</h3>
+                </div>
+                <div class="text-center">
+                    <img src="path-to-icon/bootstrap-icon.png" alt="Bootstrap" class="w-16 mx-auto">
+                    <h3 class="text-xl mt-2">Bootstrap</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold">Contact Me</h2>
+            <p class="mt-4">I'm available for freelance projects and full-time roles. Reach out to discuss your next project!</p>
+            <a href="mailto:wahbi0659@gmail.com" class="mt-4 inline-block bg-yellow-400 text-black px-6 py-3 rounded-lg">Email Me</a>
+        </div>
+    </section>
+
+    <script>
+        ScrollReveal().reveal('.animate__animated', { delay: 500 });
+    </script>
+</body>
+</html>
